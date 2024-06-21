@@ -12,13 +12,13 @@ let tasks = [
  * 引数で与えられるタイトルで「やること」が作成されるように修正してください。
  * 
  * 注) 登録ボタンを押したときに、この関数が呼ばれる処理は既に書かれています。
- * 
+ *
  */
 function addTask(title) {
     const task = { isDone: false }
 
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
-    task.title = "Hello World"
+    task.title = title;
 
     // 以降は無視して良い
     tasks.push(task);
